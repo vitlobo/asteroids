@@ -46,7 +46,6 @@ class Asteroid(VectorSprite):
 
         if Asteroid.asteroid_shape == 5:
             Asteroid.asteroid_shape = 1
-
         return point_list
 
 
@@ -74,9 +73,7 @@ class Asteroid(VectorSprite):
             add_to_score = 50
 
         random_angle = random.uniform(20, 70)
-
         random_pos_1 = random.uniform(5, 15)
-        random_pos_2 = random.uniform(5, 15)
 
         new_velocity_1 = self.velocity.rotate(random_angle)
         new_velocity_2 = self.velocity.rotate(0 - random_angle)

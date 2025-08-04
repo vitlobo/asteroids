@@ -1,10 +1,9 @@
 import pygame
 pygame.init()
 
+
 DISPLAY_SIZE = pygame.display.get_desktop_sizes()[0]
 SCREEN_WIDTH, SCREEN_HEIGHT = (DISPLAY_SIZE[0] - 178), (DISPLAY_SIZE[1] - 100)
-
-
 
 GAME_SPEED = 60
 ASTEROID_SPAWN_RATE = 2.5  # seconds orginal was 0.8
